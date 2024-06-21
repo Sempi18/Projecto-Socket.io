@@ -1,0 +1,87 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f6f6f6;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"], input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  input[type="submit"] {
+    background-color: #007aff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  #messages {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    min-height: 200px;
+    overflow-y: auto;
+  }
+  
+  /* Estilos específicos para el diseño Apple-like */
+  body {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h1 {
+    font-weight: 500;
+    color: #333;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"], input[type="submit"] {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  input[type="text"] {
+    padding: 12px;
+  }
+  
+  input[type="submit"] {
+    padding: 12px;
+    font-weight: 500;
+  }
+  
+  

@@ -1,6 +1,6 @@
 let socket = io.connect();
 socket.on("messages", function (data) {
-  console.log(data);git branch -M main
+  console.log(data);
 });
 
 function render(data) {
